@@ -1,0 +1,252 @@
+[
+  {
+    "uniqueId": "kommand-01",
+    "keywords": "new,create,contact,person,client,customer,buyer,seller,lead",
+    "commandName": "Create New Contact",
+    "commandDescription": "Add a new contact to your DB",
+    "action": "navigate",
+    "appId": "feature-30",
+    "path": "",
+    "command": "create-contact"
+  },
+  {
+    "uniqueId": "kommand-02",
+    "keywords": "new,create,transaction,deal,record,client,buyer,seller,lead",
+    "commandName": "Create New Transaction",
+    "commandDescription": "Add a new deal you want to keep track of",
+    "action": "navigate",
+    "appId": "feature-40",
+    "path": "",
+    "command": "create-transaction"
+  },
+  {
+    "uniqueId": "kommand-03",
+    "keywords": "new,create,website,page,showcase,leads,url,ads",
+    "commandName": "Create New Website",
+    "commandDescription": "Create a new website to generate fresh leads",
+    "action": "navigate",
+    "appId": "feature-50",
+    "path": "",
+    "command": "create-website"
+  },
+  {
+    "uniqueId": "kommand-04",
+    "keywords": "settings,config,preferrences,app,company,manage,organization,account,logo,sign",
+    "commandName": "Go to Company Settings",
+    "commandDescription": "",
+    "action": "navigate",
+    "appId": "feature-74",
+    "path": "",
+    "command": ""
+  },
+  {
+    "uniqueId": "kommand-05",
+    "keywords": "contact,person,client,custoemr,buyer,seller,lead",
+    "commandName": "Go to Contacts (Sales)",
+    "commandDescription": "",
+    "action": "navigate",
+    "appId": "feature-30",
+    "path": "",
+    "command": ""
+  },
+  {
+    "uniqueId": "kommand-06",
+    "keywords": "help,knowledge,articles,info",
+    "commandName": "Go to Help Center",
+    "commandDescription": "",
+    "action": "external_link",
+    "appId": "realdax-platform",
+    "path": "http://help.realdax.com",
+    "command": ""
+  },
+  {
+    "uniqueId": "kommand-07",
+    "keywords": "marketing,analytics,google,traffic,visitors,stats,reports",
+    "commandName": "Go to Marketing Analytics",
+    "commandDescription": "",
+    "action": "navigate",
+    "appId": "feature-12",
+    "path": "",
+    "command": ""
+  },
+  {
+    "uniqueId": "kommand-08",
+    "keywords": "account,profile,email,name,picture,photo,info,config,settings,preferrences,headshot",
+    "commandName": "Go to My Profile Settings",
+    "commandDescription": "",
+    "action": "navigate",
+    "appId": "feature-70",
+    "path": "",
+    "command": ""
+  },
+  {
+    "uniqueId": "kommand-09",
+    "keywords": "sales,reports,analytics,commission,money,income,plan,stats",
+    "commandName": "Go to Sales Insights",
+    "commandDescription": "",
+    "action": "navigate",
+    "appId": "feature-11",
+    "path": "",
+    "command": ""
+  },
+  {
+    "uniqueId": "kommand-10",
+    "keywords": "settings,config,preferrences,manage,settings,my,team,group,club",
+    "commandName": "Go to Team Settings",
+    "commandDescription": "",
+    "action": "navigate",
+    "appId": "feature-75",
+    "path": "/teams",
+    "command": ""
+  },
+  {
+    "uniqueId": "kommand-11",
+    "keywords": "deals,leads,transactions,client,buyer,seller,record",
+    "commandName": "Go to Transactions (Sales)",
+    "commandDescription": "",
+    "action": "navigate",
+    "appId": "feature-40",
+    "path": "",
+    "command": ""
+  },
+  {
+    "uniqueId": "kommand-12",
+    "keywords": "website,page,showcase,leads,url,marketing,ads",
+    "commandName": "Go to Websites (Marketing)",
+    "commandDescription": "",
+    "action": "navigate",
+    "appId": "feature-50",
+    "path": "",
+    "command": ""
+  },
+  {
+    "uniqueId": "kommand-13",
+    "keywords": "markets,dashboard,report,charts,stats",
+    "commandName": "Real Estate Market Reports",
+    "commandDescription": "",
+    "action": "navigate",
+    "appId": "feature-10",
+    "path": "",
+    "command": ""
+  },
+  {
+    "uniqueId": "kommand-14",
+    "keywords": "properties,homes,condos,house,address,mls,",
+    "commandName": "Search Properties",
+    "commandDescription": "",
+    "action": "navigate",
+    "appId": "feature-20",
+    "path": "",
+    "command": ""
+  },
+  {
+    "uniqueId": "kommand-15",
+    "keywords": "services,marketplace,title,lender,closing,",
+    "commandName": "Search Real Estate Services",
+    "commandDescription": "",
+    "action": "navigate",
+    "appId": "feature-60",
+    "path": "",
+    "command": ""
+  },
+  {
+    "uniqueId": "kommand-16",
+    "keywords": "mls,closed,transactions,sync,match,download,pull",
+    "commandName": "Sync my MLS transactions",
+    "commandDescription": "Syncs your MLS transactions to your account",
+    "action": "navigate",
+    "appId": "feature-40",
+    "path": "",
+    "command": "sync-mls"
+  },
+  {
+    "uniqueId": "kommand-17",
+    "keywords": "new,create,plan,commissions,plans,split,accounting,fees,payout,pay",
+    "commandName": "View/Edit commission plans (Company Settings)",
+    "commandDescription": "View and change the available commission plans for the company",
+    "action": "navigate",
+    "appId": "feature-74",
+    "path": "/commission-plans",
+    "command": ""
+  },
+  {
+    "uniqueId": "kommand-18",
+    "keywords": "bill,payment,receipt,plan,credit,card,purchase,billing,invoices,subscription,cancel",
+    "commandName": "View/Edit company billing (Company Settings)",
+    "commandDescription": "View and change the subscription, invoices and payment method for the company",
+    "action": "navigate",
+    "appId": "feature-74",
+    "path": "/billing",
+    "command": ""
+  },
+  {
+    "uniqueId": "kommand-19",
+    "keywords": "smtp,email,gmail,outlook,hotmail,yahoo,e-mail,mail",
+    "commandName": "View/Edit email settings (Profile Settings)",
+    "commandDescription": "",
+    "action": "navigate",
+    "appId": "feature-70",
+    "path": "",
+    "command": "smtp-settings"
+  },
+  {
+    "uniqueId": "kommand-20",
+    "keywords": "create,add,feed,data,mls,association,realtors,information,listings,idx,view,edit",
+    "commandName": "View/Edit MLS data feeds (Company Settings)",
+    "commandDescription": "View and change the configured MLS data feeds for this account",
+    "action": "navigate",
+    "appId": "feature-74",
+    "path": "",
+    "command": "company-edit-feed"
+  },
+  {
+    "uniqueId": "kommand-21",
+    "keywords": "agent,real,estate,license",
+    "commandName": "View/Edit my license number (Profile Settings)",
+    "commandDescription": "",
+    "action": "navigate",
+    "appId": "feature-70",
+    "path": "",
+    "command": "profile-details"
+  },
+  {
+    "uniqueId": "kommand-22",
+    "keywords": "maps,shapes,neighborhoods,markets,draw,",
+    "commandName": "View/Edit My Maps (Profile Settings)",
+    "commandDescription": "",
+    "action": "navigate",
+    "appId": "feature-70",
+    "path": "",
+    "command": "custom-markets"
+  },
+  {
+    "uniqueId": "kommand-23",
+    "keywords": "payment,plan,subscription,receipt,bill,credit,card,billing,cancel,invoices",
+    "commandName": "View/Edit my user billing (Profile Settings)",
+    "commandDescription": "",
+    "action": "navigate",
+    "appId": "feature-70",
+    "path": "",
+    "command": ""
+  },
+  {
+    "uniqueId": "kommand-24",
+    "keywords": "new,create,teams,group,club,realtor,agents",
+    "commandName": "View/Edit Teams (Company Settings)",
+    "commandDescription": "View, add or change the teams under the company",
+    "action": "navigate",
+    "appId": "feature-74",
+    "path": "/teams",
+    "command": ""
+  },
+  {
+    "uniqueId": "kommand-25",
+    "keywords": "new,create,users,agents,realtors,admin,invite",
+    "commandName": "View/Edit Users (Company Settings)",
+    "commandDescription": "View and change who has access to the company and invite new users",
+    "action": "navigate",
+    "appId": "feature-74",
+    "path": "/users",
+    "command": ""
+  }
+]
