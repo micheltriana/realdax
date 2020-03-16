@@ -1,5 +1,4 @@
-[
-{uniqueId: "kommand-01",
+[{uniqueId: "kommand-01",
 keywords: "help,knowledge,articles,info",
 commandName: "Go to Help Center",
 commandDescription: "",
@@ -247,5 +246,4 @@ action: "navigate",
 appId: "feature-75",
 path: "/teams",
 command: ""
-}
-]
+}]
