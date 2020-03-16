@@ -1,6 +1,6 @@
 [
   {
-    "uniqueId": "kommand-01",
+    "uniqueId": "kommand-01", 
     "keywords": "help,knowledge,articles,info",
     "commandName": "Go to Help Center",
     "commandDescription": "",
